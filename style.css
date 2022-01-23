@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Rock+3D&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&family=Shrikhand&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&family=Shrikhand&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Rampart+One&family=Secular+One&family=Shrikhand&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka+One&family=Press+Start+2P&family=Rampart+One&family=Secular+One&family=Shrikhand&family=Staatliches&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka+One&family=Playfair+Display:ital@1&family=Press+Start+2P&family=Rampart+One&family=Secular+One&family=Shrikhand&family=Staatliches&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka+One&family=Lora:ital,wght@1,600&family=Playfair+Display:ital@1&family=Press+Start+2P&family=Rampart+One&family=Secular+One&family=Shrikhand&family=Staatliches&family=VT323&display=swap");
+:root {
+  --basic: "Playfair Display";
+  --yellow: rgb(223, 223, 134);
+}
+
+.nav {
+  color: var(--yellow);
+  font-family: var(--basic);
+  font-weight: bold;
+}
+
+a {
+  color: rgb(228, 228, 141);
+  text-decoration: none;
+  margin: 10px;
+}
+
+.basefont {
+  text-align: center;
+  background-color: rgb(86, 133, 86);
+  color: var(--yellow);
+  font-family: var(--basic);
+}
+.altfont {
+  --basic: "acme";
+}
+
+a:hover {
+  color: rgb(204, 234, 177);
+  transition: color 0.4s;
+}
+
+a:active {
+  color: rgb(223, 223, 134);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+div a {
+  color: rgb(16, 78, 9);
+  font-size: large;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.switch {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top: 1%;
+  right: 10%;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgb(82, 149, 54);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #eaff97;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+div.maintxt {
+  border-style: dashed;
+  border-radius: 100px;
+  border-color: rgb(246, 242, 167);
+  color: rgb(16, 78, 9);
+  font-family: "Semi-bold 600 italic";
+  background-color: rgb(216, 239, 179);
+  padding: 3%;
+  margin: 2%;
+  background-image: url("strawberries.png");
+  background-size: 10%;
+}
+
+h2 {
+  font-family: "Semi-bold 600 italic";
+  letter-spacing: 5px;
+}
+p {
+  font-family: "Semi-bold 600 italic";
+  letter-spacing: 5px;
+}
+div.learning {
+  border-radius: 70px;
+  background-color: rgb(184, 207, 163);
+
+  background-position-x: left;
+  background-position-y: left;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+div.process {
+  border-radius: 70px;
+  background-color: rgb(184, 207, 163);
+
+  background-position-x: left;
+  background-position-y: left;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  letter-spacing: 10px;
+  font-style: italic;
+}
+
+div.txt {
+  border-radius: 60px;
+  background-color: rgb(184, 207, 163);
+  text-align: left;
+  background-size: 10%;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+a.logo {
+  color: rgb(100, 129, 96);
+  text-align: center;
+}
+a.logo:hover {
+  color: rgb(184, 207, 163);
+}
+
+div.txt2 {
+  text-align: center;
+}
+a.instagramlogo {
+  color: rgb(100, 129, 96);
+  text-align: center;
+}
+a.instagramlogo:hover {
+  color: rgb(184, 207, 163);
+}
+
+a.letterlogo {
+  color: rgb(100, 129, 96);
+  text-align: center;
+}
+a.letterlogo:hover {
+  color: rgb(184, 207, 163);
+}
+
+a.gitlogo {
+  color: rgb(100, 129, 96);
+  text-align: center;
+}
+a.gitlogo:hover {
+  color: rgb(184, 207, 163);
+}
+
+body {
+  background-image: url("orange.png");
+  background-size: 40%;
+  line-height: 150%;
+}
