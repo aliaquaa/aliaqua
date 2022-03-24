@@ -150,7 +150,7 @@ div.txt {
 }
 
 a.logo {
-  color: rgb(100, 129, 96);
+  color: rgb(39, 52, 38);
   text-align: center;
 }
 a.logo:hover {
@@ -158,7 +158,7 @@ a.logo:hover {
 }
 
 a.instagramlogo {
-  color: rgb(100, 129, 96);
+  color: rgb(39, 52, 38);
   text-align: center;
 }
 a.instagramlogo:hover {
@@ -166,7 +166,7 @@ a.instagramlogo:hover {
 }
 
 a.letterlogo {
-  color: rgb(100, 129, 96);
+  color: rgb(39, 52, 38);
   text-align: center;
 }
 a.letterlogo:hover {
@@ -174,7 +174,7 @@ a.letterlogo:hover {
 }
 
 a.gitlogo {
-  color: rgb(100, 129, 96);
+  color: rgb(39, 52, 38);
   text-align: center;
 }
 a.gitlogo:hover {
@@ -185,4 +185,12 @@ body {
   background-image: url("orange.png");
   background-size: 40%;
   line-height: 150%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 10;
+  width: 100%;
+  text-align: center;
 }
