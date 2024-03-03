@@ -107,23 +107,22 @@ input:checked + .slider:before {
 div.maintxt {
   border-style: dashed;
   border-radius: 100px;
-  border-color: rgb(246, 242, 167);
+  border-color: rgb(255, 212, 113);
   color: rgb(16, 78, 9);
   font-family: "Semi-bold 600 italic";
   background-color: rgb(216, 239, 179);
   padding: 3%;
   margin: 2%;
-  background-image: url("strawberries.png");
   background-size: 10%;
 }
 
 h2 {
   font-family: "Semi-bold 600 italic";
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 p {
   font-family: "Semi-bold 600 italic";
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 div.learning {
   border-radius: 70px;
